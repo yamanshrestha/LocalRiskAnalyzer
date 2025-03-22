@@ -1,16 +1,20 @@
 # 🛡️ LocalRiskAnalyzer
 
-**LocalRiskAnalyzer** is a command-line tool written in Python that scans your Windows system for running services and processes, extracts version information, and helps identify potential vulnerabilities.
+**LocalRiskAnalyzer** is a command-line tool for Windows that scans all local services and running processes, retrieves their executable paths and versions, and checks them for known vulnerabilities using the NVD CVE API. It provides both TXT and JSON logs and includes risk scoring based on CVSS.
 
 ---
 
-## 🚀 Features
+## 📦 Features
 
-- 🧠 Detect all installed Windows services (running, stopped, paused)
-- 🔍 List all running processes with paths and version info
-- 📦 Export results as `.json` and `.txt` into timestamped folders
-- 📂 Organized logs for each run
-- ✅ Ready for future CVE-matching and risk scoring
+- 🔍 Scan all Windows services (running, stopped, suspended)
+- ⚙️ Scan all active processes
+- 🔐 Check for CVEs using:
+  - Keyword search (fallback)
+  - ✅ CPE-based matching (version-aware)
+- ⚠️ Assign risk level based on CVSS score
+- 📝 Export logs to JSON and readable TXT files
+- 📂 Logs organized by timestamped folders
+- 🧪 CLI flags for fast testing
 
 ---
 
@@ -19,7 +23,7 @@
 - Python 3.8+
 - Windows OS (Linux support planned)
 
-
+```
 LocalRiskAnalyzer/
 ├── main.py                     # 🔁 Entry point (runs the whole scan)
 ├── .env                        # 🔐 Your NVD API key (not committed)
@@ -40,26 +44,7 @@ LocalRiskAnalyzer/
 ├── cve/                        # 🛡️ CVE API logic
 │   └── cve_checker.py          # Search CVEs via NVD API (CPE + fallback)
 
-
-# 🛡️ LocalRiskAnalyzer
-
-**LocalRiskAnalyzer** is a command-line tool for Windows that scans all local services and running processes, retrieves their executable paths and versions, and checks them for known vulnerabilities using the NVD CVE API. It provides both TXT and JSON logs and includes risk scoring based on CVSS.
-
----
-
-## 📦 Features
-
-- 🔍 Scan all Windows services (running, stopped, suspended)
-- ⚙️ Scan all active processes
-- 🔐 Check for CVEs using:
-  - Keyword search (fallback)
-  - ✅ CPE-based matching (version-aware)
-- ⚠️ Assign risk level based on CVSS score
-- 📝 Export logs to JSON and readable TXT files
-- 📂 Logs organized by timestamped folders
-- 🧪 CLI flags for fast testing
-
----
+```
 
 ## 🚀 Setup
 
