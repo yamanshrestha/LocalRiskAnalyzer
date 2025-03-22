@@ -1,0 +1,293 @@
+=== RUNNING PROCESSES ===
+NAME                      PID     VERSION              RISK       LINKED_SERVICE       PATH
+--------------------------------------------------------------------------------------------------------------------------------------------
+System Idle Process       0       Unknown              High       None                 Not available
+                                                                                        → CVE-2017-6627 | CVSS: 7.5 | A vulnerability in the UDP processing code of Cisco IOS 15.1...
+                                                                                        → CVE-2020-1668 | CVSS: 6.5 | On Juniper Networks EX2300 Series, receipt of a stream of sp...
+                                                                                        → CVE-2024-53980 | CVSS: N/A | RIOT is an open-source microcontroller operating system, des...
+System                    4       Unknown              Medium     None                 Not available
+                                                                                        → CVE-2007-1822 | CVSS: N/A | Alcatel-Lucent Lucent Technologies voice mail systems allow ...
+                          188     Unknown              Low        None                 Not available
+Registry                  228     Unknown              Unknown    None                 Registry
+smss.exe                  780     10.0.26100.1         Unknown    None                 C:\Windows\System32\smss.exe
+csrss.exe                 1184    10.0.26100.1         Unknown    None                 C:\Windows\System32\csrss.exe
+svchost.exe               1280    10.0.26100.1150      Unknown    HvHost               C:\Windows\System32\svchost.exe
+wininit.exe               1288    10.0.26100.3323      Unknown    None                 C:\Windows\System32\wininit.exe
+services.exe              1360    10.0.26100.3323      Unknown    None                 C:\Windows\System32\services.exe
+LsaIso.exe                1380    10.0.26100.3323      Unknown    None                 C:\Windows\System32\LsaIso.exe
+lsass.exe                 1388    10.0.26100.1882      Unknown    VaultSvc             C:\Windows\System32\lsass.exe
+chrome.exe                1440    134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               1596    10.0.26100.1150      Unknown    SystemEventsBroker   C:\Windows\System32\svchost.exe
+svchost.exe               1612    10.0.26100.1150      Unknown    lmhosts              C:\Windows\System32\svchost.exe
+WUDFHost.exe              1628    10.0.26100.3323      Unknown    None                 C:\Windows\System32\WUDFHost.exe
+fontdrvhost.exe           1644    10.0.26100.3323      Unknown    None                 C:\Windows\System32\fontdrvhost.exe
+svchost.exe               1772    10.0.26100.1150      Unknown    RpcSs                C:\Windows\System32\svchost.exe
+svchost.exe               1852    10.0.26100.1150      Unknown    LSM                  C:\Windows\System32\svchost.exe
+svchost.exe               2060    10.0.26100.1150      Unknown    CoreMessagingRegistrar C:\Windows\System32\svchost.exe
+msedge.exe                2100    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+svchost.exe               2176    10.0.26100.1150      Unknown    BTAGService          C:\Windows\System32\svchost.exe
+svchost.exe               2184    10.0.26100.1150      Unknown    BthAvctpSvc          C:\Windows\System32\svchost.exe
+svchost.exe               2192    10.0.26100.1150      Unknown    bthserv              C:\Windows\System32\svchost.exe
+svchost.exe               2300    10.0.26100.1150      Unknown    NcbService           C:\Windows\System32\svchost.exe
+svchost.exe               2308    10.0.26100.1150      Unknown    TimeBrokerSvc        C:\Windows\System32\svchost.exe
+svchost.exe               2356    10.0.26100.1150      Unknown    Schedule             C:\Windows\System32\svchost.exe
+svchost.exe               2400    10.0.26100.1150      Unknown    ProfSvc              C:\Windows\System32\svchost.exe
+svchost.exe               2428    10.0.26100.1150      Unknown    DisplayEnhancementService C:\Windows\System32\svchost.exe
+IntelCpHDCPSvc.exe        2436    31.0.101.2111        Unknown    cplspcon             C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHDCPSvc.exe
+svchost.exe               2452    10.0.26100.1150      Unknown    hidserv              C:\Windows\System32\svchost.exe
+svchost.exe               2504    10.0.26100.1150      Unknown    EventSystem          C:\Windows\System32\svchost.exe
+PresentationFontCache.exe 2544    3.0.6920.9151        Unknown    FontCache3.0.0.0     C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe
+svchost.exe               2664    10.0.26100.1150      Unknown    nsi                  C:\Windows\System32\svchost.exe
+svchost.exe               2728    10.0.26100.1150      Unknown    StiSvc               C:\Windows\System32\svchost.exe
+svchost.exe               2748    10.0.26100.1150      Unknown    UserManager          C:\Windows\System32\svchost.exe
+IntelCpHeciSvc.exe        2776    9.2.1.920            Unknown    cphs                 C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHeciSvc.exe
+svchost.exe               2880    10.0.26100.1150      Unknown    netprofm             C:\Windows\System32\svchost.exe
+svchost.exe               2896    10.0.26100.1150      Unknown    SENS                 C:\Windows\System32\svchost.exe
+svchost.exe               2944    10.0.26100.1150      Unknown    DeviceAssociationService C:\Windows\System32\svchost.exe
+chrome.exe                2980    134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               3040    10.0.26100.1150      Unknown    DusmSvc              C:\Windows\System32\svchost.exe
+igfxCUIService.exe        3064    6.15.101.2111        Unknown    igfxCUIService2.0.0.0 C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxCUIService.exe
+msedge.exe                3252    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+dasHost.exe               3260    10.0.26100.3323      Unknown    None                 C:\Windows\System32\dasHost.exe
+svchost.exe               3304    10.0.26100.1150      Unknown    PhoneSvc             C:\Windows\System32\svchost.exe
+svchost.exe               3404    10.0.26100.1150      Unknown    Dnscache             C:\Windows\System32\svchost.exe
+SynTPEnhService.exe       3488    19.5.31.21           Unknown    SynTPEnhService      C:\Windows\System32\SynTPEnhService.exe
+svchost.exe               3660    10.0.26100.1150      Unknown    Dhcp                 C:\Windows\System32\svchost.exe
+svchost.exe               3716    10.0.26100.1150      Unknown    hns                  C:\Windows\System32\svchost.exe
+svchost.exe               3736    10.0.26100.1150      Unknown    DispBrokerDesktopSvc C:\Windows\System32\svchost.exe
+svchost.exe               3844    10.0.26100.1150      Unknown    Winmgmt              C:\Windows\System32\svchost.exe
+msedge.exe                3876    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+svchost.exe               3936    10.0.26100.1150      Unknown    WinHttpAutoProxySvc  C:\Windows\System32\svchost.exe
+svchost.exe               3988    10.0.26100.1150      Unknown    nvagent              C:\Windows\System32\svchost.exe
+vmms.exe                  4000    10.0.26100.3470      Unknown    vmms                 C:\Windows\System32\vmms.exe
+RuntimeBroker.exe         4012    10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+svchost.exe               4088    10.0.26100.1150      Unknown    mpssvc               C:\Windows\System32\svchost.exe
+NVDisplay.Container.exe   4156    1.37.3103.4323       Unknown    NVDisplay.ContainerLocalSystem C:\Windows\System32\DriverStore\FileRepository\nvmisig.inf_amd64_80f3e31dcf250b30\Display.NvContainer\NVDisplay.Container.exe
+svchost.exe               4164    10.0.26100.1150      Unknown    DsSvc                C:\Windows\System32\svchost.exe
+svchost.exe               4188    10.0.26100.1150      Unknown    SharedAccess         C:\Windows\System32\svchost.exe
+svchost.exe               4248    10.0.26100.1150      Unknown    EventLog             C:\Windows\System32\svchost.exe
+msedgewebview2.exe        4260    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+svchost.exe               4280    10.0.26100.1150      Unknown    SysMain              C:\Windows\System32\svchost.exe
+svchost.exe               4288    10.0.26100.1150      Unknown    Themes               C:\Windows\System32\svchost.exe
+nahimicNotifSys.exe       4320    1.5.0.0              Unknown    None                 C:\Users\yaman\AppData\Local\NhNotifSys\nahimic\nahimicNotifSys.exe
+svchost.exe               4340    10.0.26100.1150      Unknown    AudioEndpointBuilder C:\Windows\System32\svchost.exe
+svchost.exe               4348    10.0.26100.1150      Unknown    FontCache            C:\Windows\System32\svchost.exe
+svchost.exe               4432    10.0.26100.1150      Unknown    Audiosrv             C:\Windows\System32\svchost.exe
+SecurityHealthSystray.exe 4476    10.0.26100.1882      Unknown    None                 C:\Windows\System32\SecurityHealthSystray.exe
+MemCompression            4484    Unknown              Unknown    None                 MemCompression
+svchost.exe               4540    10.0.26100.1150      Unknown    SSDPSRV              C:\Windows\System32\svchost.exe
+svchost.exe               4612    10.0.26100.1150      Unknown    StateRepository      C:\Windows\System32\svchost.exe
+svchost.exe               4624    10.0.26100.1150      Unknown    TextInputManagementService C:\Windows\System32\svchost.exe
+msedge.exe                4668    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+svchost.exe               4800    10.0.26100.1150      Unknown    iphlpsvc             C:\Windows\System32\svchost.exe
+IAStorDataMgrSvc.exe      4808    16.5.0.1027          Unknown    IAStorDataMgrSvc     C:\Program Files\Intel\Intel(R) Rapid Storage Technology\IAStorDataMgrSvc.exe
+powershell.exe            4816    10.0.26100.3323      Unknown    None                 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+brave.exe                 4988    134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+svchost.exe               5132    10.0.26100.1150      Unknown    Wcmsvc               C:\Windows\System32\svchost.exe
+WmiPrvSE.exe              5220    10.0.26100.3323      Unknown    None                 C:\Windows\System32\wbem\WmiPrvSE.exe
+Code.exe                  5404    1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+vmcompute.exe             5496    10.0.26100.3470      Unknown    vmcompute            C:\Windows\System32\vmcompute.exe
+svchost.exe               5508    10.0.26100.1150      Unknown    WlanSvc              C:\Windows\System32\svchost.exe
+svchost.exe               5576    10.0.26100.1150      Unknown    ShellHWDetection     C:\Windows\System32\svchost.exe
+Widgets.exe               5596    525.5100.20.0        Unknown    None                 C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_525.5100.30.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe
+spoolsv.exe               5628    10.0.26100.3323      Unknown    Spooler              C:\Windows\System32\spoolsv.exe
+WmiPrvSE.exe              5784    10.0.26100.3323      Unknown    None                 C:\Windows\System32\wbem\WmiPrvSE.exe
+svchost.exe               5988    10.0.26100.1150      Unknown    LanmanWorkstation    C:\Windows\System32\svchost.exe
+svchost.exe               6004    10.0.26100.1150      Unknown    camsvc               C:\Windows\System32\svchost.exe
+svchost.exe               6084    10.0.26100.1150      Unknown    CertPropSvc          C:\Windows\System32\svchost.exe
+svchost.exe               6104    10.0.26100.1150      Unknown    DPS                  C:\Windows\System32\svchost.exe
+svchost.exe               6128    10.0.26100.1150      Unknown    DiagTrack            C:\Windows\System32\svchost.exe
+svchost.exe               6140    10.0.26100.1150      Unknown    CryptSvc             C:\Windows\System32\svchost.exe
+svchost.exe               6148    10.0.26100.1150      Unknown    CDPSvc               C:\Windows\System32\svchost.exe
+EvtEng.exe                6204    20.60.0.0            Unknown    EvtEng               C:\Program Files\Intel\WiFi\bin\EvtEng.exe
+svchost.exe               6216    10.0.26100.1150      Unknown    TrkWks               C:\Windows\System32\svchost.exe
+svchost.exe               6220    10.0.26100.1150      Unknown    WpnService           C:\Windows\System32\svchost.exe
+MSIService.exe            6240    1.0.10.0             Unknown    Micro Star SCM       C:\Windows\SysWOW64\MSIService.exe
+NvTelemetryContainer.exe  6260    1.11.2393.9975       Unknown    NvTelemetryContainer C:\Program Files (x86)\NVIDIA Corporation\NvTelemetry\NvTelemetryContainer.exe
+nvcontainer.exe           6272    1.11.2402.8583       Unknown    NvContainerLocalSystem C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
+NahimicService.exe        6284    2.8.2.0              Unknown    NahimicService       C:\Windows\System32\NahimicService.exe
+vmnat.exe                 6296    17.5.0.49595         Unknown    VMware NAT Service   C:\Windows\SysWOW64\vmnat.exe
+vmnetdhcp.exe             6304    17.5.0.49595         Unknown    VMnetDHCP            C:\Windows\SysWOW64\vmnetdhcp.exe
+Surfshark.Service.exe     6320    5.13.0.999           Unknown    Surfshark Service    C:\Program Files\Surfshark\Surfshark.Service.exe
+OfficeClickToRun.exe      6328    16.0.18429.20200     Unknown    ClickToRunSvc        C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
+MpDefenderCoreService.exe 6336    4.18.25010.11        Unknown    MDCoreSvc            C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe
+RegSrvc.exe               6356    20.60.0.0            Unknown    RegSrvc              C:\Program Files\Common Files\Intel\WirelessCommon\RegSrvc.exe
+MsMpEng.exe               6380    4.18.25010.11        Unknown    WinDefend            C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe
+ZeroConfigService.exe     6388    20.60.0.0            Unknown    ZeroConfigService    C:\Program Files\Intel\WiFi\bin\ZeroConfigService.exe
+ibtsiva.exe               6396    21.80.0.3            Unknown    ibtsiva              C:\Windows\System32\ibtsiva.exe
+vmware-usbarbitrator64.exe 6408    20.10.0.0            Unknown    VMUSBArbService      C:\Program Files (x86)\Common Files\VMware\USB\vmware-usbarbitrator64.exe
+OneApp.IGCC.WinService.exe 6416    1.0.3962.0           Unknown    igccservice          C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad\OneApp.IGCC.WinService.exe
+RtkAudUService64.exe      6440    1.1.690.1            Unknown    RtkAudioUniversalService C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_7b2fe279bbb26e16\RtkAudUService64.exe
+jhi_service.exe           6448    1.44.2023.710        Unknown    jhi_service          C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe
+RstMwService.exe          6504    17.5.2.1024          Unknown    RstMwService         C:\Windows\System32\DriverStore\FileRepository\iaahcic.inf_amd64_724e05bd98458fe4\RstMwService.exe
+wslservice.exe            6512    2.4.12.0             Unknown    WSLService           C:\Program Files\WSL\wslservice.exe
+LMS.exe                   6540    2316.5.1.11          Unknown    LMS                  C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_a55aa2cd52a3429d\LMS.exe
+backgroundTaskHost.exe    6564    10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+vmware-authd.exe          6588    17.5.0.49595         Unknown    VMAuthdService       E:\0UCM-MS Cyber Security\VMware Workstation 17\vmware-authd.exe
+msedgewebview2.exe        6656    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+svchost.exe               6736    10.0.26100.1150      Unknown    RmSvc                C:\Windows\System32\svchost.exe
+backgroundTaskHost.exe    6804    10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+chrome.exe                7304    134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               7600    10.0.26100.1150      Unknown    LanmanServer         C:\Windows\System32\svchost.exe
+chrome.exe                7912    134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+unsecapp.exe              8144    10.0.26100.1150      Unknown    None                 C:\Windows\System32\wbem\unsecapp.exe
+RuntimeBroker.exe         8448    10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+svchost.exe               8640    10.0.26100.1150      Unknown    lfsvc                C:\Windows\System32\svchost.exe
+conhost.exe               8664    10.0.26100.3323      Unknown    None                 C:\Windows\System32\conhost.exe
+RuntimeBroker.exe         9264    10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+csrss.exe                 9344    10.0.26100.1         Unknown    None                 C:\Windows\System32\csrss.exe
+SearchIndexer.exe         9436    7.0.26100.3323       Unknown    WSearch              C:\Windows\System32\SearchIndexer.exe
+svchost.exe               9548    10.0.26100.1150      Unknown    PcaSvc               C:\Windows\System32\svchost.exe
+svchost.exe               9612    10.0.26100.1150      Unknown    TokenBroker          C:\Windows\System32\svchost.exe
+ShellExperienceHost.exe   9640    10.0.26100.3323      Unknown    None                 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+svchost.exe               9648    10.0.26100.1150      Unknown    Appinfo              C:\Windows\System32\svchost.exe
+svchost.exe               9692    10.0.26100.1150      Unknown    UsoSvc               C:\Windows\System32\svchost.exe
+chrome.exe                9840    134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+msedge.exe                9876    134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+svchost.exe               9940    10.0.26100.1150      Unknown    LicenseManager       C:\Windows\System32\svchost.exe
+Code.exe                  9964    1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+SynTPEnh.exe              9972    19.5.31.21           Unknown    None                 C:\Windows\System32\SynTPEnh.exe
+AggregatorHost.exe        10068   10.0.26100.3323      Unknown    None                 C:\Windows\System32\AggregatorHost.exe
+chrome.exe                10096   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               10272   10.0.26100.1150      Unknown    cbdhsvc_9981f76      C:\Windows\System32\svchost.exe
+msedge.exe                10352   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+RuntimeBroker.exe         10464   10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+Code.exe                  10884   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+svchost.exe               10932   10.0.26100.1150      Unknown    NgcCtnrSvc           C:\Windows\System32\svchost.exe
+backgroundTaskHost.exe    10964   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+NgcIso.exe                11016   10.0.26100.3323      Unknown    None                 C:\Windows\System32\NgcIso.exe
+SystemSettings.exe        11848   10.0.26100.3037      Unknown    None                 C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+svchost.exe               11920   10.0.26100.1150      Unknown    InstallService       C:\Windows\System32\svchost.exe
+msedge.exe                12052   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+pet.exe                   12236   Unknown              Unknown    None                 C:\Users\yaman\.vscode\extensions\ms-python.python-2025.2.0-win32-x64\python-env-tools\bin\pet.exe
+backgroundTaskHost.exe    12368   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+svchost.exe               12476   10.0.26100.1150      Unknown    wlidsvc              C:\Windows\System32\svchost.exe
+python3.13.exe            12528   3.13.2150.1013       Unknown    None                 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\python3.13.exe
+dllhost.exe               12668   10.0.26100.1150      Unknown    None                 C:\Windows\System32\dllhost.exe
+svchost.exe               13124   10.0.26100.1150      Unknown    wscsvc               C:\Windows\System32\svchost.exe
+IAStorIcon.exe            13136   16.5.0.1027          Unknown    None                 C:\Program Files\Intel\Intel(R) Rapid Storage Technology\IAStorIcon.exe
+NisSrv.exe                13148   4.18.25010.11        Unknown    WdNisSvc             C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe
+chrome.exe                13372   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               13684   10.0.26100.1150      Unknown    StorSvc              C:\Windows\System32\svchost.exe
+chrome.exe                13836   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               14232   10.0.26100.1150      Unknown    webthreatdefsvc      C:\Windows\System32\svchost.exe
+svchost.exe               14560   10.0.26100.1150      Unknown    BluetoothUserService_9981f76 C:\Windows\System32\svchost.exe
+SecurityHealthService.exe 14804   10.0.26100.3037      Unknown    SecurityHealthService C:\Windows\System32\SecurityHealthService.exe
+NVDisplay.Container.exe   14880   1.37.3103.4323       Unknown    None                 C:\Windows\System32\DriverStore\FileRepository\nvmisig.inf_amd64_80f3e31dcf250b30\Display.NvContainer\NVDisplay.Container.exe
+svchost.exe               15392   10.0.26100.1150      Unknown    NPSMSvc_9981f76      C:\Windows\System32\svchost.exe
+SynTPHelper.exe           15420   19.5.31.21           Unknown    None                 C:\Windows\System32\SynTPHelper.exe
+svchost.exe               15456   10.0.26100.1150      Unknown    RasMan               C:\Windows\System32\svchost.exe
+svchost.exe               15468   10.0.26100.1150      Unknown    NgcSvc               C:\Windows\System32\svchost.exe
+chrome.exe                15492   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               15504   10.0.26100.1150      Unknown    SensorService        C:\Windows\System32\svchost.exe
+RuntimeBroker.exe         15716   10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+Nahimic3.exe              15996   1.10.4.0             Unknown    None                 C:\Program Files\WindowsApps\A-Volute.Nahimic_1.10.4.0_x64__w2gh52qy24etm\Nahimic3.exe
+svchost.exe               16040   10.0.26100.1150      Unknown    SstpSvc              C:\Windows\System32\svchost.exe
+brave.exe                 16132   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+brave.exe                 16960   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+svchost.exe               16992   10.0.26100.1150      Unknown    gpsvc                C:\Windows\System32\svchost.exe
+msedge.exe                17064   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+chrome.exe                17084   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+Code.exe                  17764   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+chrome.exe                17832   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+msedgewebview2.exe        17856   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+conhost.exe               17960   10.0.26100.3323      Unknown    None                 C:\Windows\System32\conhost.exe
+msedge.exe                18036   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+msedgewebview2.exe        18160   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+NVIDIA Web Helper.exe     18216   6.12.2.0             Unknown    None                 C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe
+backgroundTaskHost.exe    18384   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+RuntimeBroker.exe         18508   10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+msedge.exe                18896   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+backgroundTaskHost.exe    18940   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+msedge.exe                18988   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+brave.exe                 19040   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+dwm.exe                   19480   10.0.26100.3323      Unknown    None                 C:\Windows\System32\dwm.exe
+svchost.exe               19680   10.0.26100.1150      Unknown    WdiServiceHost       C:\Windows\System32\svchost.exe
+nvcontainer.exe           19772   1.11.2402.8583       Unknown    None                 C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
+conhost.exe               19888   10.0.26100.3323      Unknown    None                 C:\Windows\System32\conhost.exe
+fontdrvhost.exe           19940   10.0.26100.3323      Unknown    None                 C:\Windows\System32\fontdrvhost.exe
+chrome.exe                20104   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+Lightshot.exe             20216   5.5.0.4              Unknown    None                 C:\Program Files (x86)\Skillbrains\lightshot\5.5.0.7\Lightshot.exe
+brave.exe                 20736   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+svchost.exe               20752   10.0.26100.1150      Unknown    QWAVE                C:\Windows\System32\svchost.exe
+ApplicationFrameHost.exe  21140   10.0.26100.3037      Unknown    None                 C:\Windows\System32\ApplicationFrameHost.exe
+Code.exe                  21224   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+svchost.exe               21328   10.0.26100.1150      Unknown    CDPUserSvc_9981f76   C:\Windows\System32\svchost.exe
+svchost.exe               21564   10.0.26100.1150      Unknown    DevicesFlowUserSvc_9981f76 C:\Windows\System32\svchost.exe
+chrome.exe                21792   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               21952   10.0.26100.1150      Unknown    webthreatdefusersvc_9981f76 C:\Windows\System32\svchost.exe
+msedge.exe                21988   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+svchost.exe               22004   10.0.26100.1150      Unknown    UserDataSvc_9981f76  C:\Windows\System32\svchost.exe
+sihost.exe                22168   10.0.26100.1882      Unknown    None                 C:\Windows\System32\sihost.exe
+chrome.exe                22208   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+NahimicSvc32.exe          22256   2.8.2.0              Unknown    None                 C:\Windows\SysWOW64\NahimicSvc32.exe
+SearchHost.exe            22660   2125.2402.10.0       Unknown    None                 C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe
+WhatsApp.exe              22708   Unknown              Unknown    None                 C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe
+conhost.exe               22984   10.0.26100.3323      Unknown    None                 C:\Windows\System32\conhost.exe
+backgroundTaskHost.exe    23596   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+chrome.exe                24020   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+Code.exe                  24476   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+msedge.exe                25004   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+StartMenuExperienceHost.exe 25248   10.0.26100.3323      Unknown    None                 C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+Code.exe                  25316   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+powershell.exe            25412   10.0.26100.3323      Unknown    None                 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+WidgetService.exe         25560   0.5.0.0              Unknown    None                 C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.2.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe
+backgroundTaskHost.exe    25696   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+msedge.exe                26048   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+PhoneExperienceHost.exe   26264   1.25022.70.0         Unknown    None                 C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25022.70.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe
+chrome.exe                26456   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+RuntimeBroker.exe         26516   10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+backgroundTaskHost.exe    26984   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+chrome.exe                27012   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               27076   10.0.26100.1150      Unknown    WpnUserService_9981f76 C:\Windows\System32\svchost.exe
+svchost.exe               27600   10.0.26100.1150      Unknown    W32Time              C:\Windows\System32\svchost.exe
+msedgewebview2.exe        27656   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+RtkAudUService64.exe      28040   1.1.690.1            Unknown    None                 C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_7b2fe279bbb26e16\RtkAudUService64.exe
+chrome.exe                28124   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+brave.exe                 28704   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+explorer.exe              29400   10.0.26100.3323      Unknown    None                 C:\Windows\explorer.exe
+brave.exe                 29432   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+msedgewebview2.exe        29524   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+backgroundTaskHost.exe    29628   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+backgroundTaskHost.exe    29824   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+backgroundTaskHost.exe    30300   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+igfxEM.exe                30368   6.15.101.2111        Unknown    None                 C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxEM.exe
+TextInputHost.exe         30492   2125.2804.20.0       Unknown    None                 C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+Code.exe                  30556   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+chrome.exe                30612   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+msedge.exe                30620   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+LockApp.exe               31076   10.0.26100.3323      Unknown    None                 C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
+Code.exe                  31232   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+chrome.exe                31268   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+msedge.exe                31444   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+msedge.exe                31524   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+brave.exe                 31568   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+msedge.exe                31692   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+taskhostw.exe             31948   10.0.26100.3037      Unknown    None                 C:\Windows\System32\taskhostw.exe
+python.exe                32316   3.13.2150.1013       Unknown    None                 E:\1Research and Thesis data\LocalRiskAnalyzer\lsvuln\Scripts\python.exe
+UserOOBEBroker.exe        32464   10.0.26100.3323      Unknown    None                 C:\Windows\System32\oobe\UserOOBEBroker.exe
+chrome.exe                32964   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+msedgewebview2.exe        32996   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.72\msedgewebview2.exe
+msedge.exe                33028   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+chrome.exe                33148   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+msedge.exe                33192   134.0.3124.72        Unknown    None                 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Dragon Center.exe         33196   2.3.1807.1701        Unknown    None                 C:\Program Files (x86)\MSI\Dragon Center\Dragon Center.exe
+backgroundTaskHost.exe    33420   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+Code.exe                  33524   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+chrome.exe                33704   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+RuntimeBroker.exe         33960   10.0.26100.3323      Unknown    None                 C:\Windows\System32\RuntimeBroker.exe
+SpotifyWidgetProvider.exe 34164   Unknown              Unknown    None                 C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.259.514.0_x64__zpdnekdrzrea0\SpotifyWidgetProvider.exe
+brave.exe                 34352   134.1.76.81          Unknown    None                 C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+svchost.exe               34420   10.0.26100.1150      Unknown    UdkUserSvc_9981f76   C:\Windows\System32\svchost.exe
+ShellHost.exe             34500   10.0.26100.3323      Unknown    None                 C:\Windows\System32\ShellHost.exe
+ctfmon.exe                34512   10.0.26100.3323      Unknown    None                 C:\Windows\System32\ctfmon.exe
+NahimicSvc64.exe          34680   2.8.2.0              Unknown    None                 C:\Windows\System32\NahimicSvc64.exe
+backgroundTaskHost.exe    34764   10.0.26100.1         Unknown    None                 C:\Windows\System32\backgroundTaskHost.exe
+chrome.exe                35496   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+svchost.exe               35920   10.0.26100.1150      Unknown    AppXSvc              C:\Windows\System32\svchost.exe
+Code.exe                  36208   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe
+RtkNGUI64.exe             36228   1.0.707.0            Unknown    None                 C:\Program Files\Realtek\Audio\HDA\RtkNGUI64.exe
+winlogon.exe              36244   10.0.26100.3323      Unknown    None                 C:\Windows\System32\winlogon.exe
+chrome.exe                36448   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+chrome.exe                36536   134.0.6998.118       Unknown    None                 C:\Program Files\Google\Chrome\Application\chrome.exe
+Code.exe                  36732   1.98.2.0             Unknown    None                 C:\Users\yaman\AppData\Local\Programs\Microsoft VS Code\Code.exe

@@ -1,0 +1,8 @@
+psutil
+pywin32
+wmi
+python-dotenv
+requests
+
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+#lsvuln\Scripts\Activate.ps1

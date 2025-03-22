@@ -1,0 +1,2206 @@
+{
+    "timestamp": "2025-03-22_17-49-55",
+    "state_counts": {
+        "Stopped": 178,
+        "Running": 135
+    },
+    "services": [
+        {
+            "name": "ALG",
+            "display_name": "Application Layer Gateway Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\alg.exe",
+            "version": "10.0.26100.1150",
+            "cves": [],
+            "risk": "Low"
+        },
+        {
+            "name": "AppIDSvc",
+            "display_name": "Application Identity",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "cves": [],
+            "risk": "Low"
+        },
+        {
+            "name": "Appinfo",
+            "display_name": "Application Information",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "cves": [],
+            "risk": "Low"
+        },
+        {
+            "name": "AppMgmt",
+            "display_name": "Application Management",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "AppReadiness",
+            "display_name": "App Readiness",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "AppVClient",
+            "display_name": "Microsoft App-V Client",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\AppVClient.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "AppXSvc",
+            "display_name": "AppX Deployment Service (AppXSVC)",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ApxSvc",
+            "display_name": "Windows Virtual Audio Device Proxy Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "AssignedAccessManagerSvc",
+            "display_name": "AssignedAccessManager Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "AudioEndpointBuilder",
+            "display_name": "Windows Audio Endpoint Builder",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Audiosrv",
+            "display_name": "Windows Audio",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "autotimesvc",
+            "display_name": "Cellular Time",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "AxInstSV",
+            "display_name": "ActiveX Installer (AxInstSV)",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BDESVC",
+            "display_name": "BitLocker Drive Encryption Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BFE",
+            "display_name": "Base Filtering Engine",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BITS",
+            "display_name": "Background Intelligent Transfer Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "brave",
+            "display_name": "Brave Update Service (brave)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "BraveElevationService",
+            "display_name": "Brave Elevation Service (BraveElevationService)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "bravem",
+            "display_name": "Brave Update Service (bravem)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "BrokerInfrastructure",
+            "display_name": "Background Tasks Infrastructure Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BTAGService",
+            "display_name": "Bluetooth Audio Gateway Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BthAvctpSvc",
+            "display_name": "AVCTP service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "bthserv",
+            "display_name": "Bluetooth Support Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "camsvc",
+            "display_name": "Capability Access Manager Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CDPSvc",
+            "display_name": "Connected Devices Platform Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CertPropSvc",
+            "display_name": "Certificate Propagation",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ClickToRunSvc",
+            "display_name": "Microsoft Office Click-to-Run Service",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "ClipSVC",
+            "display_name": "Client License Service (ClipSVC)",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "cloudidsvc",
+            "display_name": "Microsoft Cloud Identity Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "COMSysApp",
+            "display_name": "COM+ System Application",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\dllhost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CoreMessagingRegistrar",
+            "display_name": "CoreMessaging",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "cphs",
+            "display_name": "Intel(R) Content Protection HECI Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_51f685305808e3a5\\IntelCpHeciSvc.exe",
+            "version": "9.2.1.920"
+        },
+        {
+            "name": "cplspcon",
+            "display_name": "Intel(R) Content Protection HDCP Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_51f685305808e3a5\\IntelCpHDCPSvc.exe",
+            "version": "31.0.101.2111"
+        },
+        {
+            "name": "CryptSvc",
+            "display_name": "Cryptographic Services",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CscService",
+            "display_name": "Offline Files",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DcomLaunch",
+            "display_name": "DCOM Server Process Launcher",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "dcsvc",
+            "display_name": "Declared Configuration(DC) service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "debugregsvc",
+            "display_name": "debugregsvc",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "defragsvc",
+            "display_name": "Optimize drives",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DeveloperToolsService",
+            "display_name": "Developer Tools Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\DeveloperToolsSvc.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "DeviceAssociationService",
+            "display_name": "Device Association Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DeviceInstall",
+            "display_name": "Device Install Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DevQueryBroker",
+            "display_name": "DevQuery Background Discovery Broker",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Dhcp",
+            "display_name": "DHCP Client",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "diagsvc",
+            "display_name": "Diagnostic Execution Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DiagTrack",
+            "display_name": "Connected User Experiences and Telemetry",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DialogBlockingService",
+            "display_name": "DialogBlockingService",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DispBrokerDesktopSvc",
+            "display_name": "Display Policy Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DisplayEnhancementService",
+            "display_name": "Display Enhancement Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DmEnrollmentSvc",
+            "display_name": "Device Management Enrollment Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "dmwappushservice",
+            "display_name": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Dnscache",
+            "display_name": "DNS Client",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DoSvc",
+            "display_name": "Delivery Optimization",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "dot3svc",
+            "display_name": "Wired AutoConfig",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DPS",
+            "display_name": "Diagnostic Policy Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DsmSvc",
+            "display_name": "Device Setup Manager",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DsSvc",
+            "display_name": "Data Sharing Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DusmSvc",
+            "display_name": "Data Usage",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "EapHost",
+            "display_name": "Extensible Authentication Protocol",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "edgeupdate",
+            "display_name": "Microsoft Edge Update Service (edgeupdate)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "edgeupdatem",
+            "display_name": "Microsoft Edge Update Service (edgeupdatem)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "EFS",
+            "display_name": "Encrypting File System (EFS)",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\lsass.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "embeddedmode",
+            "display_name": "Embedded Mode",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "EntAppSvc",
+            "display_name": "Enterprise App Management Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "EventLog",
+            "display_name": "Windows Event Log",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "EventSystem",
+            "display_name": "COM+ Event System",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "EvtEng",
+            "display_name": "Intel(R) PROSet/Wireless Event Log",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "Fax",
+            "display_name": "Fax",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\fxssvc.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "fdPHost",
+            "display_name": "Function Discovery Provider Host",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "FDResPub",
+            "display_name": "Function Discovery Resource Publication",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "fhsvc",
+            "display_name": "File History Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "FontCache",
+            "display_name": "Windows Font Cache Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "FontCache3.0.0.0",
+            "display_name": "Windows Presentation Foundation Font Cache 3.0.0.0",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\Microsoft.Net\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe",
+            "version": "3.0.6920.9151"
+        },
+        {
+            "name": "FrameServer",
+            "display_name": "Windows Camera Frame Server",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "FrameServerMonitor",
+            "display_name": "Windows Camera Frame Server Monitor",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "GameInputSvc",
+            "display_name": "GameInput Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\GameInputSvc.exe",
+            "version": "0.2309.26100.3037"
+        },
+        {
+            "name": "GoogleChromeElevationService",
+            "display_name": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "GoogleUpdaterInternalService135.0.7023.0",
+            "display_name": "Google Updater Internal Service (GoogleUpdaterInternalService135.0.7023.0)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "GoogleUpdaterService135.0.7023.0",
+            "display_name": "Google Updater Service (GoogleUpdaterService135.0.7023.0)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "gpsvc",
+            "display_name": "Group Policy Client",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "GraphicsPerfSvc",
+            "display_name": "GraphicsPerfSvc",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "HgClientService",
+            "display_name": "Host Guardian Client Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "hidserv",
+            "display_name": "Human Interface Device Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "hns",
+            "display_name": "Host Network Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "HvHost",
+            "display_name": "HV Host Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "iaStorAfsService",
+            "display_name": "Intel(R) Optane(TM) Memory Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\iaStorAfsService.exe",
+            "version": "16.5.0.1027"
+        },
+        {
+            "name": "IAStorDataMgrSvc",
+            "display_name": "Intel(R) Rapid Storage Technology",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "ibtsiva",
+            "display_name": "Intel Bluetooth Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\ibtsiva",
+            "version": "Path not found"
+        },
+        {
+            "name": "icssvc",
+            "display_name": "Windows Mobile Hotspot Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "igccservice",
+            "display_name": "Intel(R) Graphics Command Center Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_c2ac023763d5d3ad\\OneApp.IGCC.WinService.exe",
+            "version": "1.0.3962.0"
+        },
+        {
+            "name": "igfxCUIService2.0.0.0",
+            "display_name": "Intel(R) HD Graphics Control Panel Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_38cfab2b652e4701\\igfxCUIService.exe",
+            "version": "6.15.101.2111"
+        },
+        {
+            "name": "IKEEXT",
+            "display_name": "IKE and AuthIP IPsec Keying Modules",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "InstallService",
+            "display_name": "Microsoft Store Install Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Intel(R) TPM Provisioning Service",
+            "display_name": "Intel(R) TPM Provisioning Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_fc84dfa25a6a7727\\lib\\TPMProvisioningService.exe",
+            "version": "1.71.99.0"
+        },
+        {
+            "name": "InventorySvc",
+            "display_name": "Inventory and Compatibility Appraisal service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "iphlpsvc",
+            "display_name": "IP Helper",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "IpxlatCfgSvc",
+            "display_name": "IP Translation Configuration Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "jhi_service",
+            "display_name": "Intel(R) Dynamic Application Loader Host Interface Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_af50fdb80983f7bc\\jhi_service.exe",
+            "version": "1.44.2023.710"
+        },
+        {
+            "name": "KeyIso",
+            "display_name": "CNG Key Isolation",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\lsass.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "KtmRm",
+            "display_name": "KtmRm for Distributed Transaction Coordinator",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "LanmanServer",
+            "display_name": "Server",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "LanmanWorkstation",
+            "display_name": "Workstation",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "lfsvc",
+            "display_name": "Geolocation Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "LicenseManager",
+            "display_name": "Windows License Manager Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "lltdsvc",
+            "display_name": "Link-Layer Topology Discovery Mapper",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "lmhosts",
+            "display_name": "TCP/IP NetBIOS Helper",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "LMS",
+            "display_name": "Intel(R) Management and Security Application Local Management Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_a55aa2cd52a3429d\\LMS.exe",
+            "version": "2316.5.1.11"
+        },
+        {
+            "name": "LocalKdc",
+            "display_name": "Kerberos Local Key Distribution Center",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\lsass.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "LSM",
+            "display_name": "LSM",
+            "state": "Running",
+            "path": "Not available",
+            "version": "Unknown"
+        },
+        {
+            "name": "LxpSvc",
+            "display_name": "Language Experience Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "MapsBroker",
+            "display_name": "Downloaded Maps Manager",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "McpManagementService",
+            "display_name": "McpManagementService",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "MDCoreSvc",
+            "display_name": "Microsoft Defender Core Service",
+            "state": "Running",
+            "path": "C:\\ProgramData\\Microsoft\\Windows",
+            "version": "Unknown"
+        },
+        {
+            "name": "Micro Star SCM",
+            "display_name": "Micro Star SCM",
+            "state": "Running",
+            "path": "C:\\Windows\\SysWOW64\\MSIService.exe",
+            "version": "1.0.10.0"
+        },
+        {
+            "name": "MicrosoftEdgeElevationService",
+            "display_name": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "mpssvc",
+            "display_name": "Windows Defender Firewall",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "MSDTC",
+            "display_name": "Distributed Transaction Coordinator",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\msdtc.exe",
+            "version": "2001.12.10941.16384"
+        },
+        {
+            "name": "MSiSCSI",
+            "display_name": "Microsoft iSCSI Initiator Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "msiserver",
+            "display_name": "Windows Installer",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\msiexec.exe",
+            "version": "5.0.26100.1150"
+        },
+        {
+            "name": "MsKeyboardFilter",
+            "display_name": "Microsoft Keyboard Filter",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "MyWiFiDHCPDNS",
+            "display_name": "Wireless PAN DHCP Server",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "NahimicService",
+            "display_name": "Nahimic service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\NahimicService.exe",
+            "version": "2.8.2.0"
+        },
+        {
+            "name": "NaturalAuthentication",
+            "display_name": "Natural Authentication",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NcaSvc",
+            "display_name": "Network Connectivity Assistant",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NcbService",
+            "display_name": "Network Connection Broker",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NcdAutoSetup",
+            "display_name": "Network Connected Devices Auto-Setup",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Netlogon",
+            "display_name": "Netlogon",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\lsass.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "Netman",
+            "display_name": "Network Connections",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "netprofm",
+            "display_name": "Network List Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NetSetupSvc",
+            "display_name": "NetSetupSvc",
+            "state": "Stopped",
+            "path": "Not available",
+            "version": "Unknown"
+        },
+        {
+            "name": "NetTcpPortSharing",
+            "display_name": "Net.Tcp Port Sharing Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe",
+            "version": "4.8.9032.0"
+        },
+        {
+            "name": "NgcCtnrSvc",
+            "display_name": "Microsoft Passport Container",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NgcSvc",
+            "display_name": "Microsoft Passport",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NlaSvc",
+            "display_name": "Network Location Awareness",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "nsi",
+            "display_name": "Network Store Interface Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "nvagent",
+            "display_name": "Network Virtualization Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NvContainerLocalSystem",
+            "display_name": "NVIDIA LocalSystem Container",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "NvContainerNetworkService",
+            "display_name": "NVIDIA NetworkService Container",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "NVDisplay.ContainerLocalSystem",
+            "display_name": "NVIDIA Display Container LS",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvmisig.inf_amd64_80f3e31dcf250b30\\Display.NvContainer\\NVDisplay.Container.exe",
+            "version": "1.37.3103.4323"
+        },
+        {
+            "name": "NvTelemetryContainer",
+            "display_name": "NVIDIA Telemetry Container",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "PcaSvc",
+            "display_name": "Program Compatibility Assistant Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PeerDistSvc",
+            "display_name": "BranchCache",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "perceptionsimulation",
+            "display_name": "Windows Perception Simulation Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\PerceptionSimulation\\PerceptionSimulationService.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "PerfHost",
+            "display_name": "Performance Counter DLL Host",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\SysWow64\\perfhost.exe",
+            "version": "10.0.26100.1"
+        },
+        {
+            "name": "PhoneSvc",
+            "display_name": "Phone Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "pla",
+            "display_name": "Performance Logs & Alerts",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PlugPlay",
+            "display_name": "Plug and Play",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PolicyAgent",
+            "display_name": "IPsec Policy Agent",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Power",
+            "display_name": "Power",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PrintDeviceConfigurationService",
+            "display_name": "Print Device Configuration Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PrintNotify",
+            "display_name": "Printer Extensions and Notifications",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PrintScanBrokerService",
+            "display_name": "PrintScanBrokerService",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ProfSvc",
+            "display_name": "User Profile Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PushToInstall",
+            "display_name": "Windows PushToInstall Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "QWAVE",
+            "display_name": "Quality Windows Audio Video Experience",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RasAuto",
+            "display_name": "Remote Access Auto Connection Manager",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RasMan",
+            "display_name": "Remote Access Connection Manager",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "refsdedupsvc",
+            "display_name": "ReFS Dedup Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\ReFsDedupSvc.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "RegSrvc",
+            "display_name": "Intel(R) PROSet/Wireless Registry Service",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "RemoteAccess",
+            "display_name": "Routing and Remote Access",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RemoteRegistry",
+            "display_name": "Remote Registry",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RetailDemo",
+            "display_name": "Retail Demo Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RmSvc",
+            "display_name": "Radio Management Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RpcEptMapper",
+            "display_name": "RPC Endpoint Mapper",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RpcLocator",
+            "display_name": "Remote Procedure Call (RPC) Locator",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\locator.exe",
+            "version": "10.0.26100.1"
+        },
+        {
+            "name": "RpcSs",
+            "display_name": "Remote Procedure Call (RPC)",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "RstMwService",
+            "display_name": "Intel(R) Storage Middleware Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iaahcic.inf_amd64_724e05bd98458fe4\\RstMwService.exe",
+            "version": "17.5.2.1024"
+        },
+        {
+            "name": "RtkAudioUniversalService",
+            "display_name": "Realtek Audio Universal Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_7b2fe279bbb26e16\\RtkAudUService64.exe",
+            "version": "1.1.690.1"
+        },
+        {
+            "name": "SamSs",
+            "display_name": "Security Accounts Manager",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\lsass.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "SCardSvr",
+            "display_name": "Smart Card",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ScDeviceEnum",
+            "display_name": "Smart Card Device Enumeration Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Schedule",
+            "display_name": "Task Scheduler",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SCPolicySvc",
+            "display_name": "Smart Card Removal Policy",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SDRSVC",
+            "display_name": "Windows Backup",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "seclogon",
+            "display_name": "Secondary Logon",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SecurityHealthService",
+            "display_name": "Windows Security Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\SecurityHealthService.exe",
+            "version": "10.0.26100.3037"
+        },
+        {
+            "name": "SEMgrSvc",
+            "display_name": "Payments and NFC/SE Manager",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SENS",
+            "display_name": "System Event Notification Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Sense",
+            "display_name": "Windows Defender Advanced Threat Protection Service",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "SensorDataService",
+            "display_name": "Sensor Data Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\SensorDataService.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "SensorService",
+            "display_name": "Sensor Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SensrSvc",
+            "display_name": "Sensor Monitoring Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SessionEnv",
+            "display_name": "Remote Desktop Configuration",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SgrmBroker",
+            "display_name": "System Guard Runtime Monitor Broker",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\Sgrm\\SgrmBroker.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "SharedAccess",
+            "display_name": "Internet Connection Sharing (ICS)",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ShellHWDetection",
+            "display_name": "Shell Hardware Detection",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "shpamsvc",
+            "display_name": "Shared PC Account Manager",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "smphost",
+            "display_name": "Microsoft Storage Spaces SMP",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SmsRouter",
+            "display_name": "Microsoft Windows SMS Router Service.",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SNMPTrap",
+            "display_name": "SNMP Trap",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\snmptrap.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "Spooler",
+            "display_name": "Print Spooler",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\spoolsv.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "sppsvc",
+            "display_name": "Software Protection",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\sppsvc.exe",
+            "version": "10.0.26100.3470"
+        },
+        {
+            "name": "SSDPSRV",
+            "display_name": "SSDP Discovery",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ssh-agent",
+            "display_name": "OpenSSH Authentication Agent",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\OpenSSH\\ssh-agent.exe",
+            "version": "9.5.3.1"
+        },
+        {
+            "name": "sshd",
+            "display_name": "OpenSSH SSH Server",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\OpenSSH\\sshd.exe",
+            "version": "9.5.3.1"
+        },
+        {
+            "name": "SshdBroker",
+            "display_name": "SshdBroker",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SstpSvc",
+            "display_name": "Secure Socket Tunneling Protocol Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "StateRepository",
+            "display_name": "State Repository Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "StiSvc",
+            "display_name": "Windows Image Acquisition (WIA)",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "StorSvc",
+            "display_name": "Storage Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Surfshark Service",
+            "display_name": "Surfshark Service",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "svsvc",
+            "display_name": "Spot Verifier",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "swprv",
+            "display_name": "Microsoft Software Shadow Copy Provider",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SynTPEnhService",
+            "display_name": "SynTPEnhService",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\SynTPEnhService.exe",
+            "version": "19.5.31.21"
+        },
+        {
+            "name": "SysMain",
+            "display_name": "SysMain",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "SystemEventsBroker",
+            "display_name": "System Events Broker",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TapiSrv",
+            "display_name": "Telephony",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TermService",
+            "display_name": "Remote Desktop Services",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TextInputManagementService",
+            "display_name": "Text Input Management Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Themes",
+            "display_name": "Themes",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TieringEngineService",
+            "display_name": "Storage Tiers Management",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\TieringEngineService.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TimeBrokerSvc",
+            "display_name": "Time Broker",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TokenBroker",
+            "display_name": "Web Account Manager",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TrkWks",
+            "display_name": "Distributed Link Tracking Client",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TroubleshootingSvc",
+            "display_name": "Recommended Troubleshooting Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "TrustedInstaller",
+            "display_name": "Windows Modules Installer",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\servicing\\TrustedInstaller.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "tzautoupdate",
+            "display_name": "Auto Time Zone Updater",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "UevAgentService",
+            "display_name": "User Experience Virtualization Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\AgentService.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "UmRdpService",
+            "display_name": "Remote Desktop Services UserMode Port Redirector",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "upnphost",
+            "display_name": "UPnP Device Host",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "UserManager",
+            "display_name": "User Manager",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "UsoSvc",
+            "display_name": "Update Orchestrator Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "VaultSvc",
+            "display_name": "Credential Manager",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\lsass.exe",
+            "version": "10.0.26100.1882"
+        },
+        {
+            "name": "VBoxSDS",
+            "display_name": "VirtualBox system service",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "vds",
+            "display_name": "Virtual Disk",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\vds.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "vgc",
+            "display_name": "vgc",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "VMAuthdService",
+            "display_name": "VMware Authorization Service",
+            "state": "Running",
+            "path": "E:\\0UCM-MS",
+            "version": "Path not found"
+        },
+        {
+            "name": "vmcompute",
+            "display_name": "Hyper-V Host Compute Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\vmcompute.exe",
+            "version": "10.0.26100.3470"
+        },
+        {
+            "name": "vmicguestinterface",
+            "display_name": "Hyper-V Guest Service Interface",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmicheartbeat",
+            "display_name": "Hyper-V Heartbeat Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmickvpexchange",
+            "display_name": "Hyper-V Data Exchange Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmicrdv",
+            "display_name": "Hyper-V Remote Desktop Virtualization Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmicshutdown",
+            "display_name": "Hyper-V Guest Shutdown Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmictimesync",
+            "display_name": "Hyper-V Time Synchronization Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmicvmsession",
+            "display_name": "Hyper-V PowerShell Direct Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmicvss",
+            "display_name": "Hyper-V Volume Shadow Copy Requestor",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "vmms",
+            "display_name": "Hyper-V Virtual Machine Management",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\vmms.exe",
+            "version": "10.0.26100.3470"
+        },
+        {
+            "name": "VMnetDHCP",
+            "display_name": "VMware DHCP Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\SysWOW64\\vmnetdhcp.exe",
+            "version": "17.5.0.49595"
+        },
+        {
+            "name": "VMUSBArbService",
+            "display_name": "VMware USB Arbitration Service",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "VMware NAT Service",
+            "display_name": "VMware NAT Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\SysWOW64\\vmnat.exe",
+            "version": "17.5.0.49595"
+        },
+        {
+            "name": "VmwareAutostartService",
+            "display_name": "VMware Autostart Service",
+            "state": "Stopped",
+            "path": "E:\\0UCM-MS",
+            "version": "Path not found"
+        },
+        {
+            "name": "VSS",
+            "display_name": "Volume Shadow Copy",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\vssvc.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "W32Time",
+            "display_name": "Windows Time",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WaaSMedicSvc",
+            "display_name": "WaaSMedicSvc",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WalletService",
+            "display_name": "WalletService",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WarpJITSvc",
+            "display_name": "Warp JIT Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wbengine",
+            "display_name": "Block Level Backup Engine Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\wbengine.exe",
+            "version": "10.0.26100.3037"
+        },
+        {
+            "name": "WbioSrvc",
+            "display_name": "Windows Biometric Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Wcmsvc",
+            "display_name": "Windows Connection Manager",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wcncsvc",
+            "display_name": "Windows Connect Now - Config Registrar",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WdiServiceHost",
+            "display_name": "Diagnostic Service Host",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WdiSystemHost",
+            "display_name": "Diagnostic System Host",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WdNisSvc",
+            "display_name": "Microsoft Defender Antivirus Network Inspection Service",
+            "state": "Running",
+            "path": "C:\\ProgramData\\Microsoft\\Windows",
+            "version": "Unknown"
+        },
+        {
+            "name": "WebClient",
+            "display_name": "WebClient",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WebManagement",
+            "display_name": "Web Management",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\WebManagement.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "webthreatdefsvc",
+            "display_name": "Web Threat Defense Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Wecsvc",
+            "display_name": "Windows Event Collector",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WEPHOSTSVC",
+            "display_name": "Windows Encryption Provider Host Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wercplsupport",
+            "display_name": "Problem Reports Control Panel Support",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WerSvc",
+            "display_name": "Windows Error Reporting Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WFDSConMgrSvc",
+            "display_name": "Wi-Fi Direct Services Connection Manager Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WiaRpc",
+            "display_name": "Still Image Acquisition Events",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WinDefend",
+            "display_name": "Microsoft Defender Antivirus Service",
+            "state": "Running",
+            "path": "C:\\ProgramData\\Microsoft\\Windows",
+            "version": "Unknown"
+        },
+        {
+            "name": "WinHttpAutoProxySvc",
+            "display_name": "WinHTTP Web Proxy Auto-Discovery Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "Winmgmt",
+            "display_name": "Windows Management Instrumentation",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WinRM",
+            "display_name": "Windows Remote Management (WS-Management)",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wisvc",
+            "display_name": "Windows Insider Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WlanSvc",
+            "display_name": "WLAN AutoConfig",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wlidsvc",
+            "display_name": "Microsoft Account Sign-in Assistant",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wlpasvc",
+            "display_name": "Local Profile Assistant Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WManSvc",
+            "display_name": "Windows Management Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wmiApSrv",
+            "display_name": "WMI Performance Adapter",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\wbem\\WmiApSrv.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "WMPNetworkSvc",
+            "display_name": "Windows Media Player Network Sharing Service",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "workfolderssvc",
+            "display_name": "Work Folders",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WpcMonSvc",
+            "display_name": "Parental Controls",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WPDBusEnum",
+            "display_name": "Portable Device Enumerator Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WpnService",
+            "display_name": "Windows Push Notifications System Service",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "wscsvc",
+            "display_name": "Security Center",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WSearch",
+            "display_name": "Windows Search",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\SearchIndexer.exe",
+            "version": "7.0.26100.3323"
+        },
+        {
+            "name": "WslInstaller",
+            "display_name": "Windows Subsystem for Linux",
+            "state": "Stopped",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "WSLService",
+            "display_name": "WSL Service",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "wuauserv",
+            "display_name": "Windows Update",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WwanSvc",
+            "display_name": "WWAN AutoConfig",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "XblAuthManager",
+            "display_name": "Xbox Live Auth Manager",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "XblGameSave",
+            "display_name": "Xbox Live Game Save",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "XboxGipSvc",
+            "display_name": "Xbox Accessory Management Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "XboxNetApiSvc",
+            "display_name": "Xbox Live Networking Service",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ZeroConfigService",
+            "display_name": "Intel(R) PROSet/Wireless Zero Configuration Service",
+            "state": "Running",
+            "path": "C:\\Program",
+            "version": "Path not found"
+        },
+        {
+            "name": "AarSvc_9981f76",
+            "display_name": "Agent Activation Runtime_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BcastDVRUserService_9981f76",
+            "display_name": "GameDVR and Broadcast User Service_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "BluetoothUserService_9981f76",
+            "display_name": "Bluetooth User Support Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CaptureService_9981f76",
+            "display_name": "CaptureService_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "cbdhsvc_9981f76",
+            "display_name": "Clipboard User Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CDPUserSvc_9981f76",
+            "display_name": "Connected Devices Platform User Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CloudBackupRestoreSvc_9981f76",
+            "display_name": "Cloud Backup and Restore Service_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "ConsentUxUserSvc_9981f76",
+            "display_name": "ConsentUX User Service_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "CredentialEnrollmentManagerUserSvc_9981f76",
+            "display_name": "CredentialEnrollmentManagerUserSvc_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\CredentialEnrollmentManager.exe",
+            "version": "10.0.26100.3323"
+        },
+        {
+            "name": "DeviceAssociationBrokerSvc_9981f76",
+            "display_name": "DeviceAssociationBroker_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DevicePickerUserSvc_9981f76",
+            "display_name": "DevicePicker_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "DevicesFlowUserSvc_9981f76",
+            "display_name": "DevicesFlow_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "MessagingService_9981f76",
+            "display_name": "MessagingService_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "NPSMSvc_9981f76",
+            "display_name": "Now Playing Session Manager Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "OneSyncSvc_9981f76",
+            "display_name": "Sync Host_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "P9RdrService_9981f76",
+            "display_name": "P9RdrService_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PenService_9981f76",
+            "display_name": "PenService_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PimIndexMaintenanceSvc_9981f76",
+            "display_name": "Contact Data_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "PrintWorkflowUserSvc_9981f76",
+            "display_name": "PrintWorkflow_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "UdkUserSvc_9981f76",
+            "display_name": "Udk User Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "UnistoreSvc_9981f76",
+            "display_name": "User Data Storage_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\System32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "UserDataSvc_9981f76",
+            "display_name": "User Data Access_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WebManagementUser_9981f76",
+            "display_name": "WebManagementUser_9981f76",
+            "state": "Stopped",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "webthreatdefusersvc_9981f76",
+            "display_name": "Web Threat Defense User Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        },
+        {
+            "name": "WpnUserService_9981f76",
+            "display_name": "Windows Push Notifications User Service_9981f76",
+            "state": "Running",
+            "path": "C:\\WINDOWS\\system32\\svchost.exe",
+            "version": "10.0.26100.1150"
+        }
+    ]
+}

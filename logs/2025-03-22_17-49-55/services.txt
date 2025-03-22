@@ -1,0 +1,320 @@
+=== WINDOWS SERVICES ===
+NAME                      STATE      VERSION              RISK       PATH
+------------------------------------------------------------------------------------------------------------------------
+ALG                       Stopped    10.0.26100.1150      Low        C:\WINDOWS\System32\alg.exe
+AppIDSvc                  Stopped    10.0.26100.1150      Low        C:\WINDOWS\system32\svchost.exe
+Appinfo                   Running    10.0.26100.1150      Low        C:\WINDOWS\system32\svchost.exe
+AppMgmt                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+AppReadiness              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+AppVClient                Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\system32\AppVClient.exe
+AppXSvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ApxSvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+AssignedAccessManagerSvc  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+AudioEndpointBuilder      Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+Audiosrv                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+autotimesvc               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+AxInstSV                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+BDESVC                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+BFE                       Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+BITS                      Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+brave                     Stopped    Path not found       Unknown    C:\Program
+BraveElevationService     Stopped    Path not found       Unknown    C:\Program
+bravem                    Stopped    Path not found       Unknown    C:\Program
+BrokerInfrastructure      Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+BTAGService               Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+BthAvctpSvc               Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+bthserv                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+camsvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CDPSvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CertPropSvc               Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ClickToRunSvc             Running    Path not found       Unknown    C:\Program
+ClipSVC                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+cloudidsvc                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+COMSysApp                 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\dllhost.exe
+CoreMessagingRegistrar    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+cphs                      Running    9.2.1.920            Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHeciSvc.exe
+cplspcon                  Running    31.0.101.2111        Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHDCPSvc.exe
+CryptSvc                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CscService                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+DcomLaunch                Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+dcsvc                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+debugregsvc               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+defragsvc                 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DeveloperToolsService     Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\System32\DeveloperToolsSvc.exe
+DeviceAssociationService  Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DeviceInstall             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DevQueryBroker            Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Dhcp                      Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+diagsvc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+DiagTrack                 Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+DialogBlockingService     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DispBrokerDesktopSvc      Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DisplayEnhancementService Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DmEnrollmentSvc           Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+dmwappushservice          Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Dnscache                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DoSvc                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+dot3svc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DPS                       Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+DsmSvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DsSvc                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+DusmSvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+EapHost                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+edgeupdate                Stopped    Path not found       Unknown    C:\Program
+edgeupdatem               Stopped    Path not found       Unknown    C:\Program
+EFS                       Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\System32\lsass.exe
+embeddedmode              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+EntAppSvc                 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+EventLog                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+EventSystem               Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+EvtEng                    Running    Path not found       Unknown    C:\Program
+Fax                       Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\fxssvc.exe
+fdPHost                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+FDResPub                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+fhsvc                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+FontCache                 Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+FontCache3.0.0.0          Running    3.0.6920.9151        Unknown    C:\WINDOWS\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe
+FrameServer               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+FrameServerMonitor        Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+GameInputSvc              Stopped    0.2309.26100.3037    Unknown    C:\WINDOWS\System32\GameInputSvc.exe
+GoogleChromeElevationService Stopped    Path not found       Unknown    C:\Program
+GoogleUpdaterInternalService135.0.7023.0 Stopped    Path not found       Unknown    C:\Program
+GoogleUpdaterService135.0.7023.0 Stopped    Path not found       Unknown    C:\Program
+gpsvc                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+GraphicsPerfSvc           Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+HgClientService           Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+hidserv                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+hns                       Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+HvHost                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+iaStorAfsService          Stopped    16.5.0.1027          Unknown    C:\WINDOWS\System32\iaStorAfsService.exe
+IAStorDataMgrSvc          Running    Path not found       Unknown    C:\Program
+ibtsiva                   Running    Path not found       Unknown    C:\WINDOWS\system32\ibtsiva
+icssvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+igccservice               Running    1.0.3962.0           Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad\OneApp.IGCC.WinService.exe
+igfxCUIService2.0.0.0     Running    6.15.101.2111        Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxCUIService.exe
+IKEEXT                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+InstallService            Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+Intel(R) TPM Provisioning Service Stopped    1.71.99.0            Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe
+InventorySvc              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+iphlpsvc                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+IpxlatCfgSvc              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+jhi_service               Running    1.44.2023.710        Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe
+KeyIso                    Running    10.0.26100.1882      Unknown    C:\WINDOWS\system32\lsass.exe
+KtmRm                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+LanmanServer              Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+LanmanWorkstation         Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+lfsvc                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+LicenseManager            Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+lltdsvc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+lmhosts                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+LMS                       Running    2316.5.1.11          Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\lms.inf_amd64_a55aa2cd52a3429d\LMS.exe
+LocalKdc                  Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\System32\lsass.exe
+LSM                       Running    Unknown              Unknown    Not available
+LxpSvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+MapsBroker                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+McpManagementService      Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+MDCoreSvc                 Running    Unknown              Unknown    C:\ProgramData\Microsoft\Windows
+Micro Star SCM            Running    1.0.10.0             Unknown    C:\Windows\SysWOW64\MSIService.exe
+MicrosoftEdgeElevationService Stopped    Path not found       Unknown    C:\Program
+mpssvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+MSDTC                     Stopped    2001.12.10941.16384  Unknown    C:\WINDOWS\System32\msdtc.exe
+MSiSCSI                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+msiserver                 Stopped    5.0.26100.1150       Unknown    C:\WINDOWS\system32\msiexec.exe
+MsKeyboardFilter          Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+MyWiFiDHCPDNS             Stopped    Path not found       Unknown    C:\Program
+NahimicService            Running    2.8.2.0              Unknown    C:\WINDOWS\System32\NahimicService.exe
+NaturalAuthentication     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+NcaSvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+NcbService                Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+NcdAutoSetup              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+Netlogon                  Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\system32\lsass.exe
+Netman                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+netprofm                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+NetSetupSvc               Stopped    Unknown              Unknown    Not available
+NetTcpPortSharing         Stopped    4.8.9032.0           Unknown    C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe
+NgcCtnrSvc                Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+NgcSvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+NlaSvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+nsi                       Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+nvagent                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+NvContainerLocalSystem    Running    Path not found       Unknown    C:\Program
+NvContainerNetworkService Stopped    Path not found       Unknown    C:\Program
+NVDisplay.ContainerLocalSystem Running    1.37.3103.4323       Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\nvmisig.inf_amd64_80f3e31dcf250b30\Display.NvContainer\NVDisplay.Container.exe
+NvTelemetryContainer      Running    Path not found       Unknown    C:\Program
+PcaSvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PeerDistSvc               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+perceptionsimulation      Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationService.exe
+PerfHost                  Stopped    10.0.26100.1         Unknown    C:\WINDOWS\SysWow64\perfhost.exe
+PhoneSvc                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+pla                       Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+PlugPlay                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PolicyAgent               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Power                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PrintDeviceConfigurationService Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+PrintNotify               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PrintScanBrokerService    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ProfSvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PushToInstall             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+QWAVE                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+RasAuto                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+RasMan                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+refsdedupsvc              Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\System32\ReFsDedupSvc.exe
+RegSrvc                   Running    Path not found       Unknown    C:\Program
+RemoteAccess              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+RemoteRegistry            Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+RetailDemo                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+RmSvc                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+RpcEptMapper              Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+RpcLocator                Stopped    10.0.26100.1         Unknown    C:\WINDOWS\system32\locator.exe
+RpcSs                     Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+RstMwService              Running    17.5.2.1024          Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\iaahcic.inf_amd64_724e05bd98458fe4\RstMwService.exe
+RtkAudioUniversalService  Running    1.1.690.1            Unknown    C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_7b2fe279bbb26e16\RtkAudUService64.exe
+SamSs                     Running    10.0.26100.1882      Unknown    C:\WINDOWS\system32\lsass.exe
+SCardSvr                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ScDeviceEnum              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Schedule                  Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SCPolicySvc               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SDRSVC                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+seclogon                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SecurityHealthService     Running    10.0.26100.3037      Unknown    C:\WINDOWS\system32\SecurityHealthService.exe
+SEMgrSvc                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SENS                      Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Sense                     Stopped    Path not found       Unknown    C:\Program
+SensorDataService         Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\System32\SensorDataService.exe
+SensorService             Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SensrSvc                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SessionEnv                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+SgrmBroker                Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\Sgrm\SgrmBroker.exe
+SharedAccess              Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+ShellHWDetection          Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+shpamsvc                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+smphost                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+SmsRouter                 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SNMPTrap                  Stopped    10.0.26100.1882      Unknown    C:\WINDOWS\System32\snmptrap.exe
+Spooler                   Running    10.0.26100.3323      Unknown    C:\WINDOWS\System32\spoolsv.exe
+sppsvc                    Stopped    10.0.26100.3470      Unknown    C:\WINDOWS\system32\sppsvc.exe
+SSDPSRV                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ssh-agent                 Stopped    9.5.3.1              Unknown    C:\WINDOWS\System32\OpenSSH\ssh-agent.exe
+sshd                      Stopped    9.5.3.1              Unknown    C:\WINDOWS\System32\OpenSSH\sshd.exe
+SshdBroker                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SstpSvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+StateRepository           Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+StiSvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+StorSvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+Surfshark Service         Running    Path not found       Unknown    C:\Program
+svsvc                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+swprv                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+SynTPEnhService           Running    19.5.31.21           Unknown    C:\WINDOWS\System32\SynTPEnhService.exe
+SysMain                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+SystemEventsBroker        Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+TapiSrv                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+TermService               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+TextInputManagementService Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+Themes                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+TieringEngineService      Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\TieringEngineService.exe
+TimeBrokerSvc             Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+TokenBroker               Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+TrkWks                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+TroubleshootingSvc        Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+TrustedInstaller          Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\servicing\TrustedInstaller.exe
+tzautoupdate              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+UevAgentService           Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\AgentService.exe
+UmRdpService              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+upnphost                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+UserManager               Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+UsoSvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+VaultSvc                  Running    10.0.26100.1882      Unknown    C:\WINDOWS\system32\lsass.exe
+VBoxSDS                   Stopped    Path not found       Unknown    C:\Program
+vds                       Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\System32\vds.exe
+vgc                       Stopped    Path not found       Unknown    C:\Program
+VMAuthdService            Running    Path not found       Unknown    E:\0UCM-MS
+vmcompute                 Running    10.0.26100.3470      Unknown    C:\WINDOWS\system32\vmcompute.exe
+vmicguestinterface        Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmicheartbeat             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmickvpexchange           Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmicrdv                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmicshutdown              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmictimesync              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmicvmsession             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmicvss                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+vmms                      Running    10.0.26100.3470      Unknown    C:\WINDOWS\system32\vmms.exe
+VMnetDHCP                 Running    17.5.0.49595         Unknown    C:\WINDOWS\SysWOW64\vmnetdhcp.exe
+VMUSBArbService           Running    Path not found       Unknown    C:\Program
+VMware NAT Service        Running    17.5.0.49595         Unknown    C:\WINDOWS\SysWOW64\vmnat.exe
+VmwareAutostartService    Stopped    Path not found       Unknown    E:\0UCM-MS
+VSS                       Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\vssvc.exe
+W32Time                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WaaSMedicSvc              Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WalletService             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WarpJITSvc                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+wbengine                  Stopped    10.0.26100.3037      Unknown    C:\WINDOWS\system32\wbengine.exe
+WbioSrvc                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Wcmsvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+wcncsvc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WdiServiceHost            Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WdiSystemHost             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WdNisSvc                  Running    Unknown              Unknown    C:\ProgramData\Microsoft\Windows
+WebClient                 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WebManagement             Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\WebManagement.exe
+webthreatdefsvc           Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Wecsvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WEPHOSTSVC                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+wercplsupport             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WerSvc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WFDSConMgrSvc             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WiaRpc                    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WinDefend                 Running    Unknown              Unknown    C:\ProgramData\Microsoft\Windows
+WinHttpAutoProxySvc       Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+Winmgmt                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WinRM                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+wisvc                     Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WlanSvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+wlidsvc                   Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+wlpasvc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WManSvc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+wmiApSrv                  Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\wbem\WmiApSrv.exe
+WMPNetworkSvc             Stopped    Path not found       Unknown    C:\Program
+workfolderssvc            Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WpcMonSvc                 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WPDBusEnum                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WpnService                Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+wscsvc                    Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+WSearch                   Running    7.0.26100.3323       Unknown    C:\WINDOWS\system32\SearchIndexer.exe
+WslInstaller              Stopped    Path not found       Unknown    C:\Program
+WSLService                Running    Path not found       Unknown    C:\Program
+wuauserv                  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WwanSvc                   Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+XblAuthManager            Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+XblGameSave               Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+XboxGipSvc                Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+XboxNetApiSvc             Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ZeroConfigService         Running    Path not found       Unknown    C:\Program
+AarSvc_9981f76            Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+BcastDVRUserService_9981f76 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+BluetoothUserService_9981f76 Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CaptureService_9981f76    Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+cbdhsvc_9981f76           Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CDPUserSvc_9981f76        Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CloudBackupRestoreSvc_9981f76 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+ConsentUxUserSvc_9981f76  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+CredentialEnrollmentManagerUserSvc_9981f76 Stopped    10.0.26100.3323      Unknown    C:\WINDOWS\system32\CredentialEnrollmentManager.exe
+DeviceAssociationBrokerSvc_9981f76 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DevicePickerUserSvc_9981f76 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+DevicesFlowUserSvc_9981f76 Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+MessagingService_9981f76  Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+NPSMSvc_9981f76           Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+OneSyncSvc_9981f76        Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+P9RdrService_9981f76      Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PenService_9981f76        Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PimIndexMaintenanceSvc_9981f76 Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+PrintWorkflowUserSvc_9981f76 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+UdkUserSvc_9981f76        Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+UnistoreSvc_9981f76       Running    10.0.26100.1150      Unknown    C:\WINDOWS\System32\svchost.exe
+UserDataSvc_9981f76       Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WebManagementUser_9981f76 Stopped    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+webthreatdefusersvc_9981f76 Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+WpnUserService_9981f76    Running    10.0.26100.1150      Unknown    C:\WINDOWS\system32\svchost.exe
+
+=== SERVICE STATE COUNTS ===
+Stopped   : 178
+Running   : 135

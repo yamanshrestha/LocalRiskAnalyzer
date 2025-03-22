@@ -1,0 +1,2035 @@
+{
+    "timestamp": "2025-03-22_17-49-55",
+    "processes": [
+        {
+            "name": "System Idle Process",
+            "pid": 0,
+            "path": "Not available",
+            "version": "Unknown",
+            "linked_service": "None",
+            "cves": [
+                {
+                    "cve_id": "CVE-2017-6627",
+                    "cvss": 7.5,
+                    "description": "A vulnerability in the UDP processing code of Cisco IOS 15.1, 15.2, and 15.4 and IOS XE 3.14 through 3.18 could allow an unauthenticated, remote attacker to cause the input queue of an affected system to hold UDP packets, causing an interface queue wedge and a denial of service (DoS) condition. The vulnerability is due to Cisco IOS Software application changes that create UDP sockets and leave the sockets idle without closing them. An attacker could exploit this vulnerability by sending UDP packets with a destination port of 0 to an affected device. A successful exploit could allow the attacker to cause UDP packets to be held in the input interfaces queue, resulting in a DoS condition. The input interface queue will stop holding UDP packets when it receives 250 packets. Cisco Bug IDs: CSCup10024, CSCva55744, CSCva95506."
+                },
+                {
+                    "cve_id": "CVE-2020-1668",
+                    "cvss": 6.5,
+                    "description": "On Juniper Networks EX2300 Series, receipt of a stream of specific multicast packets by the layer2 interface can cause high CPU load, which could lead to traffic interruption. This issue occurs when multicast packets are received by the layer 2 interface. To check if the device has high CPU load due to this issue, the administrator can issue the following command: user@host> show chassis routing-engine Routing Engine status: ... Idle 2 percent the \"Idle\" value shows as low (2 % in the example above), and also the following command: user@host> show system processes summary ... PID USERNAME PRI NICE SIZE RES STATE TIME WCPU COMMAND 11639 root 52 0 283M 11296K select 12:15 44.97% eventd 11803 root 81 0 719M 239M RUN 251:12 31.98% fxpc{fxpc} the eventd and the fxpc processes might use higher WCPU percentage (respectively 44.97% and 31.98% in the above example). This issue affects Juniper Networks Junos OS on EX2300 Series: 18.1 versions prior to 18.1R3-S11; 18.2 versions prior to 18.2R3-S5; 18.3 versions prior to 18.3R2-S4, 18.3R3-S3; 18.4 versions prior to 18.4R2-S5, 18.4R3-S4; 19.1 versions prior to 19.1R3-S2; 19.2 versions prior to 19.2R1-S5, 19.2R3; 19.3 versions prior to 19.3R2-S4, 19.3R3; 19.4 versions prior to 19.4R1-S3, 19.4R2-S1, 19.4R3; 20.1 versions prior to 20.1R1-S2, 20.1R2."
+                },
+                {
+                    "cve_id": "CVE-2024-53980",
+                    "cvss": "N/A",
+                    "description": "RIOT is an open-source microcontroller operating system, designed to match the requirements of Internet of Things (IoT) devices and other embedded devices. A malicious actor can send a IEEE 802.15.4 packet with spoofed length byte and optionally spoofed FCS, which eventually results into an endless loop on a CC2538 as receiver. Before PR #20998, the receiver would check for the location of the CRC bit using the packet length byte by considering all 8 bits, instead of discarding bit 7, which is what the radio does. This then results into reading outside of the RX FIFO.  Although it prints an error when attempting to read outside of the RX FIFO, it will continue doing this. This may lead to a discrepancy in the CRC check according to the firmware and the radio. If the CPU judges the CRC as correct and the radio is set to `AUTO_ACK`, when the packet requests and acknowledgment the CPU will go into the state `CC2538_STATE_TX_ACK`. However, if the radio judged the CRC as incorrect, it will not send an acknowledgment, and thus the `TXACKDONE` event will not fire. It will then never return to the state `CC2538_STATE_READY` since the baseband processing is still disabled. Then the CPU will be in an endless loop. Since setting to idle is not forced, it won't do it if the radio's state is not `CC2538_STATE_READY`. A fix has not yet been made."
+                }
+            ],
+            "risk": "High"
+        },
+        {
+            "name": "System",
+            "pid": 4,
+            "path": "Not available",
+            "version": "Unknown",
+            "linked_service": "None",
+            "cves": [
+                {
+                    "cve_id": "CVE-2007-1822",
+                    "cvss": "N/A",
+                    "description": "Alcatel-Lucent Lucent Technologies voice mail systems allow remote attackers to retrieve or remove messages, or reconfigure mailboxes, by spoofing Calling Number Identification (CNID, aka Caller ID)."
+                }
+            ],
+            "risk": "Medium"
+        },
+        {
+            "name": "",
+            "pid": 188,
+            "path": "Not available",
+            "version": "Unknown",
+            "linked_service": "None",
+            "cves": [],
+            "risk": "Low"
+        },
+        {
+            "name": "Registry",
+            "pid": 228,
+            "path": "Registry",
+            "version": "Unknown",
+            "linked_service": "None"
+        },
+        {
+            "name": "smss.exe",
+            "pid": 780,
+            "path": "C:\\Windows\\System32\\smss.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "csrss.exe",
+            "pid": 1184,
+            "path": "C:\\Windows\\System32\\csrss.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 1280,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "HvHost"
+        },
+        {
+            "name": "wininit.exe",
+            "pid": 1288,
+            "path": "C:\\Windows\\System32\\wininit.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "services.exe",
+            "pid": 1360,
+            "path": "C:\\Windows\\System32\\services.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "LsaIso.exe",
+            "pid": 1380,
+            "path": "C:\\Windows\\System32\\LsaIso.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "lsass.exe",
+            "pid": 1388,
+            "path": "C:\\Windows\\System32\\lsass.exe",
+            "version": "10.0.26100.1882",
+            "linked_service": "VaultSvc"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 1440,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 1596,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SystemEventsBroker"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 1612,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "lmhosts"
+        },
+        {
+            "name": "WUDFHost.exe",
+            "pid": 1628,
+            "path": "C:\\Windows\\System32\\WUDFHost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "fontdrvhost.exe",
+            "pid": 1644,
+            "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 1772,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "RpcSs"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 1852,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "LSM"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2060,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "CoreMessagingRegistrar"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 2100,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2176,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "BTAGService"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2184,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "BthAvctpSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2192,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "bthserv"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2300,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "NcbService"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2308,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "TimeBrokerSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2356,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Schedule"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2400,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "ProfSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2428,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DisplayEnhancementService"
+        },
+        {
+            "name": "IntelCpHDCPSvc.exe",
+            "pid": 2436,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_51f685305808e3a5\\IntelCpHDCPSvc.exe",
+            "version": "31.0.101.2111",
+            "linked_service": "cplspcon"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2452,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "hidserv"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2504,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "EventSystem"
+        },
+        {
+            "name": "PresentationFontCache.exe",
+            "pid": 2544,
+            "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe",
+            "version": "3.0.6920.9151",
+            "linked_service": "FontCache3.0.0.0"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2664,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "nsi"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2728,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "StiSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2748,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "UserManager"
+        },
+        {
+            "name": "IntelCpHeciSvc.exe",
+            "pid": 2776,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_51f685305808e3a5\\IntelCpHeciSvc.exe",
+            "version": "9.2.1.920",
+            "linked_service": "cphs"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2880,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "netprofm"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2896,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SENS"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 2944,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DeviceAssociationService"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 2980,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3040,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DusmSvc"
+        },
+        {
+            "name": "igfxCUIService.exe",
+            "pid": 3064,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_38cfab2b652e4701\\igfxCUIService.exe",
+            "version": "6.15.101.2111",
+            "linked_service": "igfxCUIService2.0.0.0"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 3252,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "dasHost.exe",
+            "pid": 3260,
+            "path": "C:\\Windows\\System32\\dasHost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3304,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "PhoneSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3404,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Dnscache"
+        },
+        {
+            "name": "SynTPEnhService.exe",
+            "pid": 3488,
+            "path": "C:\\Windows\\System32\\SynTPEnhService.exe",
+            "version": "19.5.31.21",
+            "linked_service": "SynTPEnhService"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3660,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Dhcp"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3716,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "hns"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3736,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DispBrokerDesktopSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3844,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Winmgmt"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 3876,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3936,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "WinHttpAutoProxySvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 3988,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "nvagent"
+        },
+        {
+            "name": "vmms.exe",
+            "pid": 4000,
+            "path": "C:\\Windows\\System32\\vmms.exe",
+            "version": "10.0.26100.3470",
+            "linked_service": "vmms"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 4012,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4088,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "mpssvc"
+        },
+        {
+            "name": "NVDisplay.Container.exe",
+            "pid": 4156,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvmisig.inf_amd64_80f3e31dcf250b30\\Display.NvContainer\\NVDisplay.Container.exe",
+            "version": "1.37.3103.4323",
+            "linked_service": "NVDisplay.ContainerLocalSystem"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4164,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DsSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4188,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SharedAccess"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4248,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "EventLog"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 4260,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4280,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SysMain"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4288,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Themes"
+        },
+        {
+            "name": "nahimicNotifSys.exe",
+            "pid": 4320,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\NhNotifSys\\nahimic\\nahimicNotifSys.exe",
+            "version": "1.5.0.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4340,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "AudioEndpointBuilder"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4348,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "FontCache"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4432,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Audiosrv"
+        },
+        {
+            "name": "SecurityHealthSystray.exe",
+            "pid": 4476,
+            "path": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+            "version": "10.0.26100.1882",
+            "linked_service": "None"
+        },
+        {
+            "name": "MemCompression",
+            "pid": 4484,
+            "path": "MemCompression",
+            "version": "Unknown",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4540,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SSDPSRV"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4612,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "StateRepository"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4624,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "TextInputManagementService"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 4668,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 4800,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "iphlpsvc"
+        },
+        {
+            "name": "IAStorDataMgrSvc.exe",
+            "pid": 4808,
+            "path": "C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\IAStorDataMgrSvc.exe",
+            "version": "16.5.0.1027",
+            "linked_service": "IAStorDataMgrSvc"
+        },
+        {
+            "name": "powershell.exe",
+            "pid": 4816,
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 4988,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 5132,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Wcmsvc"
+        },
+        {
+            "name": "WmiPrvSE.exe",
+            "pid": 5220,
+            "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 5404,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "vmcompute.exe",
+            "pid": 5496,
+            "path": "C:\\Windows\\System32\\vmcompute.exe",
+            "version": "10.0.26100.3470",
+            "linked_service": "vmcompute"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 5508,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "WlanSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 5576,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "ShellHWDetection"
+        },
+        {
+            "name": "Widgets.exe",
+            "pid": 5596,
+            "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_525.5100.30.0_x64__cw5n1h2txyewy\\Dashboard\\Widgets.exe",
+            "version": "525.5100.20.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "spoolsv.exe",
+            "pid": 5628,
+            "path": "C:\\Windows\\System32\\spoolsv.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "Spooler"
+        },
+        {
+            "name": "WmiPrvSE.exe",
+            "pid": 5784,
+            "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 5988,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "LanmanWorkstation"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6004,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "camsvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6084,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "CertPropSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6104,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DPS"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6128,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DiagTrack"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6140,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "CryptSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6148,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "CDPSvc"
+        },
+        {
+            "name": "EvtEng.exe",
+            "pid": 6204,
+            "path": "C:\\Program Files\\Intel\\WiFi\\bin\\EvtEng.exe",
+            "version": "20.60.0.0",
+            "linked_service": "EvtEng"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6216,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "TrkWks"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6220,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "WpnService"
+        },
+        {
+            "name": "MSIService.exe",
+            "pid": 6240,
+            "path": "C:\\Windows\\SysWOW64\\MSIService.exe",
+            "version": "1.0.10.0",
+            "linked_service": "Micro Star SCM"
+        },
+        {
+            "name": "NvTelemetryContainer.exe",
+            "pid": 6260,
+            "path": "C:\\Program Files (x86)\\NVIDIA Corporation\\NvTelemetry\\NvTelemetryContainer.exe",
+            "version": "1.11.2393.9975",
+            "linked_service": "NvTelemetryContainer"
+        },
+        {
+            "name": "nvcontainer.exe",
+            "pid": 6272,
+            "path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+            "version": "1.11.2402.8583",
+            "linked_service": "NvContainerLocalSystem"
+        },
+        {
+            "name": "NahimicService.exe",
+            "pid": 6284,
+            "path": "C:\\Windows\\System32\\NahimicService.exe",
+            "version": "2.8.2.0",
+            "linked_service": "NahimicService"
+        },
+        {
+            "name": "vmnat.exe",
+            "pid": 6296,
+            "path": "C:\\Windows\\SysWOW64\\vmnat.exe",
+            "version": "17.5.0.49595",
+            "linked_service": "VMware NAT Service"
+        },
+        {
+            "name": "vmnetdhcp.exe",
+            "pid": 6304,
+            "path": "C:\\Windows\\SysWOW64\\vmnetdhcp.exe",
+            "version": "17.5.0.49595",
+            "linked_service": "VMnetDHCP"
+        },
+        {
+            "name": "Surfshark.Service.exe",
+            "pid": 6320,
+            "path": "C:\\Program Files\\Surfshark\\Surfshark.Service.exe",
+            "version": "5.13.0.999",
+            "linked_service": "Surfshark Service"
+        },
+        {
+            "name": "OfficeClickToRun.exe",
+            "pid": 6328,
+            "path": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+            "version": "16.0.18429.20200",
+            "linked_service": "ClickToRunSvc"
+        },
+        {
+            "name": "MpDefenderCoreService.exe",
+            "pid": 6336,
+            "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25010.11-0\\MpDefenderCoreService.exe",
+            "version": "4.18.25010.11",
+            "linked_service": "MDCoreSvc"
+        },
+        {
+            "name": "RegSrvc.exe",
+            "pid": 6356,
+            "path": "C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\RegSrvc.exe",
+            "version": "20.60.0.0",
+            "linked_service": "RegSrvc"
+        },
+        {
+            "name": "MsMpEng.exe",
+            "pid": 6380,
+            "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25010.11-0\\MsMpEng.exe",
+            "version": "4.18.25010.11",
+            "linked_service": "WinDefend"
+        },
+        {
+            "name": "ZeroConfigService.exe",
+            "pid": 6388,
+            "path": "C:\\Program Files\\Intel\\WiFi\\bin\\ZeroConfigService.exe",
+            "version": "20.60.0.0",
+            "linked_service": "ZeroConfigService"
+        },
+        {
+            "name": "ibtsiva.exe",
+            "pid": 6396,
+            "path": "C:\\Windows\\System32\\ibtsiva.exe",
+            "version": "21.80.0.3",
+            "linked_service": "ibtsiva"
+        },
+        {
+            "name": "vmware-usbarbitrator64.exe",
+            "pid": 6408,
+            "path": "C:\\Program Files (x86)\\Common Files\\VMware\\USB\\vmware-usbarbitrator64.exe",
+            "version": "20.10.0.0",
+            "linked_service": "VMUSBArbService"
+        },
+        {
+            "name": "OneApp.IGCC.WinService.exe",
+            "pid": 6416,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_c2ac023763d5d3ad\\OneApp.IGCC.WinService.exe",
+            "version": "1.0.3962.0",
+            "linked_service": "igccservice"
+        },
+        {
+            "name": "RtkAudUService64.exe",
+            "pid": 6440,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_7b2fe279bbb26e16\\RtkAudUService64.exe",
+            "version": "1.1.690.1",
+            "linked_service": "RtkAudioUniversalService"
+        },
+        {
+            "name": "jhi_service.exe",
+            "pid": 6448,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_af50fdb80983f7bc\\jhi_service.exe",
+            "version": "1.44.2023.710",
+            "linked_service": "jhi_service"
+        },
+        {
+            "name": "RstMwService.exe",
+            "pid": 6504,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iaahcic.inf_amd64_724e05bd98458fe4\\RstMwService.exe",
+            "version": "17.5.2.1024",
+            "linked_service": "RstMwService"
+        },
+        {
+            "name": "wslservice.exe",
+            "pid": 6512,
+            "path": "C:\\Program Files\\WSL\\wslservice.exe",
+            "version": "2.4.12.0",
+            "linked_service": "WSLService"
+        },
+        {
+            "name": "LMS.exe",
+            "pid": 6540,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lms.inf_amd64_a55aa2cd52a3429d\\LMS.exe",
+            "version": "2316.5.1.11",
+            "linked_service": "LMS"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 6564,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "vmware-authd.exe",
+            "pid": 6588,
+            "path": "E:\\0UCM-MS Cyber Security\\VMware Workstation 17\\vmware-authd.exe",
+            "version": "17.5.0.49595",
+            "linked_service": "VMAuthdService"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 6656,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 6736,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "RmSvc"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 6804,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 7304,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 7600,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "LanmanServer"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 7912,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "unsecapp.exe",
+            "pid": 8144,
+            "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "None"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 8448,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 8640,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "lfsvc"
+        },
+        {
+            "name": "conhost.exe",
+            "pid": 8664,
+            "path": "C:\\Windows\\System32\\conhost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 9264,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "csrss.exe",
+            "pid": 9344,
+            "path": "C:\\Windows\\System32\\csrss.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "SearchIndexer.exe",
+            "pid": 9436,
+            "path": "C:\\Windows\\System32\\SearchIndexer.exe",
+            "version": "7.0.26100.3323",
+            "linked_service": "WSearch"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 9548,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "PcaSvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 9612,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "TokenBroker"
+        },
+        {
+            "name": "ShellExperienceHost.exe",
+            "pid": 9640,
+            "path": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 9648,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "Appinfo"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 9692,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "UsoSvc"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 9840,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 9876,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 9940,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "LicenseManager"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 9964,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "SynTPEnh.exe",
+            "pid": 9972,
+            "path": "C:\\Windows\\System32\\SynTPEnh.exe",
+            "version": "19.5.31.21",
+            "linked_service": "None"
+        },
+        {
+            "name": "AggregatorHost.exe",
+            "pid": 10068,
+            "path": "C:\\Windows\\System32\\AggregatorHost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 10096,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 10272,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "cbdhsvc_9981f76"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 10352,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 10464,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 10884,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 10932,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "NgcCtnrSvc"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 10964,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "NgcIso.exe",
+            "pid": 11016,
+            "path": "C:\\Windows\\System32\\NgcIso.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "SystemSettings.exe",
+            "pid": 11848,
+            "path": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+            "version": "10.0.26100.3037",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 11920,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "InstallService"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 12052,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "pet.exe",
+            "pid": 12236,
+            "path": "C:\\Users\\yaman\\.vscode\\extensions\\ms-python.python-2025.2.0-win32-x64\\python-env-tools\\bin\\pet.exe",
+            "version": "Unknown",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 12368,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 12476,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "wlidsvc"
+        },
+        {
+            "name": "python3.13.exe",
+            "pid": 12528,
+            "path": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\\python3.13.exe",
+            "version": "3.13.2150.1013",
+            "linked_service": "None"
+        },
+        {
+            "name": "dllhost.exe",
+            "pid": 12668,
+            "path": "C:\\Windows\\System32\\dllhost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 13124,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "wscsvc"
+        },
+        {
+            "name": "IAStorIcon.exe",
+            "pid": 13136,
+            "path": "C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\IAStorIcon.exe",
+            "version": "16.5.0.1027",
+            "linked_service": "None"
+        },
+        {
+            "name": "NisSrv.exe",
+            "pid": 13148,
+            "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25010.11-0\\NisSrv.exe",
+            "version": "4.18.25010.11",
+            "linked_service": "WdNisSvc"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 13372,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 13684,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "StorSvc"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 13836,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 14232,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "webthreatdefsvc"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 14560,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "BluetoothUserService_9981f76"
+        },
+        {
+            "name": "SecurityHealthService.exe",
+            "pid": 14804,
+            "path": "C:\\Windows\\System32\\SecurityHealthService.exe",
+            "version": "10.0.26100.3037",
+            "linked_service": "SecurityHealthService"
+        },
+        {
+            "name": "NVDisplay.Container.exe",
+            "pid": 14880,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvmisig.inf_amd64_80f3e31dcf250b30\\Display.NvContainer\\NVDisplay.Container.exe",
+            "version": "1.37.3103.4323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 15392,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "NPSMSvc_9981f76"
+        },
+        {
+            "name": "SynTPHelper.exe",
+            "pid": 15420,
+            "path": "C:\\Windows\\System32\\SynTPHelper.exe",
+            "version": "19.5.31.21",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 15456,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "RasMan"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 15468,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "NgcSvc"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 15492,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 15504,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SensorService"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 15716,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "Nahimic3.exe",
+            "pid": 15996,
+            "path": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.4.0_x64__w2gh52qy24etm\\Nahimic3.exe",
+            "version": "1.10.4.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 16040,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "SstpSvc"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 16132,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 16960,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 16992,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "gpsvc"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 17064,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 17084,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 17764,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 17832,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 17856,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "conhost.exe",
+            "pid": 17960,
+            "path": "C:\\Windows\\System32\\conhost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 18036,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 18160,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "NVIDIA Web Helper.exe",
+            "pid": 18216,
+            "path": "C:\\Program Files (x86)\\NVIDIA Corporation\\NvNode\\NVIDIA Web Helper.exe",
+            "version": "6.12.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 18384,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 18508,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 18896,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 18940,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 18988,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 19040,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "dwm.exe",
+            "pid": 19480,
+            "path": "C:\\Windows\\System32\\dwm.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 19680,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "WdiServiceHost"
+        },
+        {
+            "name": "nvcontainer.exe",
+            "pid": 19772,
+            "path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+            "version": "1.11.2402.8583",
+            "linked_service": "None"
+        },
+        {
+            "name": "conhost.exe",
+            "pid": 19888,
+            "path": "C:\\Windows\\System32\\conhost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "fontdrvhost.exe",
+            "pid": 19940,
+            "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 20104,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "Lightshot.exe",
+            "pid": 20216,
+            "path": "C:\\Program Files (x86)\\Skillbrains\\lightshot\\5.5.0.7\\Lightshot.exe",
+            "version": "5.5.0.4",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 20736,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 20752,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "QWAVE"
+        },
+        {
+            "name": "ApplicationFrameHost.exe",
+            "pid": 21140,
+            "path": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+            "version": "10.0.26100.3037",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 21224,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 21328,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "CDPUserSvc_9981f76"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 21564,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "DevicesFlowUserSvc_9981f76"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 21792,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 21952,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "webthreatdefusersvc_9981f76"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 21988,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 22004,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "UserDataSvc_9981f76"
+        },
+        {
+            "name": "sihost.exe",
+            "pid": 22168,
+            "path": "C:\\Windows\\System32\\sihost.exe",
+            "version": "10.0.26100.1882",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 22208,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "NahimicSvc32.exe",
+            "pid": 22256,
+            "path": "C:\\Windows\\SysWOW64\\NahimicSvc32.exe",
+            "version": "2.8.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "SearchHost.exe",
+            "pid": 22660,
+            "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+            "version": "2125.2402.10.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "WhatsApp.exe",
+            "pid": 22708,
+            "path": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
+            "version": "Unknown",
+            "linked_service": "None"
+        },
+        {
+            "name": "conhost.exe",
+            "pid": 22984,
+            "path": "C:\\Windows\\System32\\conhost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 23596,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 24020,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 24476,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 25004,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "StartMenuExperienceHost.exe",
+            "pid": 25248,
+            "path": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 25316,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "powershell.exe",
+            "pid": 25412,
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "WidgetService.exe",
+            "pid": 25560,
+            "path": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.2.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+            "version": "0.5.0.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 25696,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 26048,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "PhoneExperienceHost.exe",
+            "pid": 26264,
+            "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25022.70.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+            "version": "1.25022.70.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 26456,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 26516,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 26984,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 27012,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 27076,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "WpnUserService_9981f76"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 27600,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "W32Time"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 27656,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "RtkAudUService64.exe",
+            "pid": 28040,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_7b2fe279bbb26e16\\RtkAudUService64.exe",
+            "version": "1.1.690.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 28124,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 28704,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "explorer.exe",
+            "pid": 29400,
+            "path": "C:\\Windows\\explorer.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 29432,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 29524,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 29628,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 29824,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 30300,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "igfxEM.exe",
+            "pid": 30368,
+            "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_38cfab2b652e4701\\igfxEM.exe",
+            "version": "6.15.101.2111",
+            "linked_service": "None"
+        },
+        {
+            "name": "TextInputHost.exe",
+            "pid": 30492,
+            "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+            "version": "2125.2804.20.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 30556,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 30612,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 30620,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "LockApp.exe",
+            "pid": 31076,
+            "path": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 31232,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 31268,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 31444,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 31524,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 31568,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 31692,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "taskhostw.exe",
+            "pid": 31948,
+            "path": "C:\\Windows\\System32\\taskhostw.exe",
+            "version": "10.0.26100.3037",
+            "linked_service": "None"
+        },
+        {
+            "name": "python.exe",
+            "pid": 32316,
+            "path": "E:\\1Research and Thesis data\\LocalRiskAnalyzer\\lsvuln\\Scripts\\python.exe",
+            "version": "3.13.2150.1013",
+            "linked_service": "None"
+        },
+        {
+            "name": "UserOOBEBroker.exe",
+            "pid": 32464,
+            "path": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 32964,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedgewebview2.exe",
+            "pid": 32996,
+            "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 33028,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 33148,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "msedge.exe",
+            "pid": 33192,
+            "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "version": "134.0.3124.72",
+            "linked_service": "None"
+        },
+        {
+            "name": "Dragon Center.exe",
+            "pid": 33196,
+            "path": "C:\\Program Files (x86)\\MSI\\Dragon Center\\Dragon Center.exe",
+            "version": "2.3.1807.1701",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 33420,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 33524,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 33704,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "RuntimeBroker.exe",
+            "pid": 33960,
+            "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "SpotifyWidgetProvider.exe",
+            "pid": 34164,
+            "path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.259.514.0_x64__zpdnekdrzrea0\\SpotifyWidgetProvider.exe",
+            "version": "Unknown",
+            "linked_service": "None"
+        },
+        {
+            "name": "brave.exe",
+            "pid": 34352,
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "version": "134.1.76.81",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 34420,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "UdkUserSvc_9981f76"
+        },
+        {
+            "name": "ShellHost.exe",
+            "pid": 34500,
+            "path": "C:\\Windows\\System32\\ShellHost.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "ctfmon.exe",
+            "pid": 34512,
+            "path": "C:\\Windows\\System32\\ctfmon.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "NahimicSvc64.exe",
+            "pid": 34680,
+            "path": "C:\\Windows\\System32\\NahimicSvc64.exe",
+            "version": "2.8.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "backgroundTaskHost.exe",
+            "pid": 34764,
+            "path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "version": "10.0.26100.1",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 35496,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "svchost.exe",
+            "pid": 35920,
+            "path": "C:\\Windows\\System32\\svchost.exe",
+            "version": "10.0.26100.1150",
+            "linked_service": "AppXSvc"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 36208,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "RtkNGUI64.exe",
+            "pid": 36228,
+            "path": "C:\\Program Files\\Realtek\\Audio\\HDA\\RtkNGUI64.exe",
+            "version": "1.0.707.0",
+            "linked_service": "None"
+        },
+        {
+            "name": "winlogon.exe",
+            "pid": 36244,
+            "path": "C:\\Windows\\System32\\winlogon.exe",
+            "version": "10.0.26100.3323",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 36448,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "chrome.exe",
+            "pid": 36536,
+            "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "version": "134.0.6998.118",
+            "linked_service": "None"
+        },
+        {
+            "name": "Code.exe",
+            "pid": 36732,
+            "path": "C:\\Users\\yaman\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+            "version": "1.98.2.0",
+            "linked_service": "None"
+        }
+    ]
+}
